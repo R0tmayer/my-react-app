@@ -1,0 +1,37 @@
+.cart{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.cart-item-content {
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 16px;
+    font-family: "Apple Braille", serif;
+    font-size: x-large;
+    min-width: 80%;
+}
+
+.cart__title {
+    display: block;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.cart-headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 16px;
+    text-align: right;
+}
+
+.cart-total-content{
+    border: 1px solid;
+    border-radius: 16px;
+    min-width: 20%;
+    padding: 16px;
+    font-size: xx-large;
+}

@@ -1,0 +1,16 @@
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    margin-block: 16px;
+}
+
+.cart-item__title{
+}
+
+.cart-item__right{
+    display: flex;
+    text-align: right;
+}
+
